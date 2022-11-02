@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 
 public class exponentiationWithRecursiveMethod {
-
+	 
+    /*calculateExponent metodu, kullşanıcıdan alınan taban değer ve üs değerlerini 
+     hesaplayarak kullanıcıya girdiği taban değerinin üslü hesabını yazdırır.
+     *Bu metodun özelliği recursive olmasıdır.
+     *Recursive metod : metodun, döngü halinde kendini çağırmasıdır. */
 	public static double calculateExponent(double baseValue , double exponent) {
 		Scanner scanner = new Scanner(System.in);
 		
